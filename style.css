@@ -1,0 +1,1587 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap');
+/*Marko One*/
+
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap');
+/*Piazzola*/
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+/*platypi*/
+
+@import
+  url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Changa+One:ital@0;1&family=Supermercado+One&display=swap');
+/*supermercado one*/
+
+@import
+  url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Changa+One:ital@0;1&display=swap');
+/*baloo 2*/
+
+@import
+  url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+/*Changa one*/
+
+body{
+  background:rgb(0, 0, 0);
+  display:flex;
+  justify-content:center;
+}
+
+.cartilha{
+  width:390px;
+  height:842px;
+  background: rgba(253, 160, 210);
+  position:relative;
+
+  overflow:hidden;
+}
+
+.forma{
+  width:290px;
+  height:300px;
+
+  background:#FFE595;
+
+  border-radius:50%;
+
+  position:absolute;
+
+  top:105px;
+  left:50px;
+
+  z-index:1;
+}
+
+.topo{
+  width:260px;
+  height:255px;
+
+  background:#FABD53;
+
+  border-bottom-left-radius:115px;
+  border-bottom-right-radius:115px;
+
+  position:absolute;
+
+  top:0;
+  left:65px;
+
+  z-index:2;
+
+  box-shadow: 0px 7px 5px rgba(0,0,0,0.2);
+}
+
+.fisico{
+
+  width:295px;
+  height:42px;
+
+  border:none;
+
+  border-radius:40px;
+
+  background:#D16F9C;
+
+  color:white;
+
+  font-size:22px;
+
+  box-shadow:
+  0px 7px 4.5px rgba(192,100,142,1);
+
+  cursor:pointer;
+
+  position:absolute;
+
+  top:445px;
+  left:47px;
+
+  z-index:30;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.fisico:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+.sexual{
+
+  width:295px;
+  height:42px;
+
+  border:none;
+
+  border-radius:40px;
+
+  background:#D16F9C;
+
+  color:white;
+
+  font-size:22px;
+
+  box-shadow:
+  0px 7px 4.5px rgba(192,100,142,1);
+
+  cursor:pointer;
+
+  position:absolute;
+
+  top:525px;
+  left:47px;
+
+  z-index:30;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.sexual:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+.psicológica{
+
+  width:295px;
+  height:42px;
+
+  border:none;
+
+  border-radius:40px;
+
+  background:#D16F9C;
+
+  color:white;
+
+  font-size:22px;
+
+  box-shadow:
+  0px 7px 4.5px rgba(192,100,142,1);
+
+  cursor:pointer;
+
+  position:absolute;
+
+  top:605px;
+  left:47px;
+
+  z-index:30;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.psicológica:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+.patrimonial{
+
+  width:295px;
+  height:42px;
+
+  border:none;
+
+  border-radius:40px;
+
+  background:#D16F9C;
+
+  color:white;
+
+  font-size:22px;
+
+  box-shadow:
+  0px 7px 4.5px rgba(192,100,142,1);
+
+  cursor:pointer;
+
+  position:absolute;
+
+  top:685px;
+  left:47px;
+
+  z-index:30;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.patrimonial:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+.moral{
+
+  width:295px;
+  height:42px;
+
+  border:none;
+
+  border-radius:40px;
+
+  background:#D16F9C;
+
+  color:white;
+
+  font-size:22px;
+
+  box-shadow:
+  0px 7px 4.5px rgba(192,100,142,1);
+
+  cursor:pointer;
+
+  position:absolute;
+
+  top:765px;
+  left:47px;
+
+  z-index:30;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.moral:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+.mulher{
+
+  position:absolute;
+  width:122px;
+
+  object-fit:cover;
+}
+
+.mulher1{
+
+  top:107px;
+  left:176px;
+
+  z-index:2;
+
+  transform: rotate(-79deg);
+}
+
+.mulher2{
+
+  width:115px;
+
+  top:100px;
+  right:182.5px;
+
+  z-index:2;
+
+  transform: rotate(85deg);
+}
+
+.mulher3{
+
+  top:177px;
+  left:125px;
+
+  z-index:2;
+
+  transform: rotate(-26.5deg);
+}
+
+.mulher4{
+
+  top:177px;
+  right:125px;
+
+  z-index:2;
+
+  transform: rotate(26.5deg);
+}
+
+.titulo{
+
+  color:#53381B;
+
+  font-size:28px;
+
+  z-index:3;
+
+  position:absolute;
+
+  width:100%;
+  left:0;
+
+  text-align:center;
+
+  top:25px;
+
+  font-family:'Modak';
+
+  font-weight:80;
+
+  line-height:1.05;
+
+}
+
+.titulo2{
+
+  color:#53381B;
+
+  font-size:33px;
+
+  z-index:3;
+
+  position:absolute;
+
+  width:100%;
+  left:0;
+
+  text-align:center;
+
+  top:82px;
+
+  font-family:'Modak';
+
+  font-weight:100;
+
+  line-height:1.1;
+}
+
+.assinatura{
+
+  position:absolute;
+
+  top:12px;
+  left:178px;
+
+  color:#FFF7EA;
+
+  font-size:17px;
+
+  font-family:'Supermercado One';
+
+  z-index:3;
+}
+
+.logotipo{
+
+  position:absolute;
+
+  width:45px;
+
+  right:142px;
+
+  object-fit:cover;
+}
+
+.logotipo:hover{
+  transform:scale(1.05);
+  transition:0.3s;
+}
+
+.circulinho{
+  height:35px;
+  width:40px;
+  background:#9D5476;
+  border-radius:50%;
+  position:absolute;
+  left:250px;
+  top:4px;
+
+  align-items:center;
+}
+
+.circulo-play{
+  position:absolute;
+  font-size:20px;
+  color:#FFF1C1;
+  top:2px;
+  left:12px;
+}
+
+.texto-botao1{
+  color:white;
+  position:absolute;
+  left:18px;
+  font-size:22px;
+  font-family:'Platypi';
+}
+
+.circulinho2{
+  height:35px;
+  width:40px;
+  background:#9D5476;
+  border-radius:50%;
+  position:absolute;
+  left:250px;
+  top:4px;
+
+  align-items:center;
+}
+
+.circulo-play2{
+  position:absolute;
+  font-size:20px;
+  color:#FFF1C1;
+  top:2px;
+  left:12px;
+}
+
+.texto-botao2{
+  color:white;
+  position:absolute;
+  left:18px;
+  font-size:22px;
+  font-family:'Platypi';
+}
+
+.circulinho3{
+  height:35px;
+  width:40px;
+  background:#9D5476;
+  border-radius:50%;
+  position:absolute;
+  left:250px;
+  top:4px;
+
+  align-items:center;
+}
+
+.circulo-play3{
+  position:absolute;
+  font-size:20px;
+  color:#FFF1C1;
+  top:2px;
+  left:12px;
+}
+
+.texto-botao3{
+  color:white;
+  position:absolute;
+  left:18px;
+  font-size:22px;
+  font-family:'Platypi';
+}
+
+.circulinho4{
+  height:35px;
+  width:40px;
+  background:#9D5476;
+  border-radius:50%;
+  position:absolute;
+  left:250px;
+  top:4px;
+
+  align-items:center;
+}
+
+.circulo-play4{
+  position:absolute;
+  font-size:20px;
+  color:#FFF1C1;
+  top:2px;
+  left:12px;
+}
+
+.texto-botao4{
+  color:white;
+  position:absolute;
+  left:18px;
+  font-size:21px;
+  font-family:'Platypi';
+}
+
+.circulinho5{
+  height:35px;
+  width:40px;
+  background:#9D5476;
+  border-radius:50%;
+  position:absolute;
+  left:250px;
+  top:4px;
+
+  align-items:center;
+}
+
+.circulo-play5{
+  position:absolute;
+  font-size:20px;
+  color:#FFF1C1;
+  top:2px;
+  left:12px;
+}
+
+.texto-botao5{
+  color:white;
+  position:absolute;
+  left:18px;
+  font-size:21px;
+  font-family:'Platypi';
+}
+
+#Capa{
+  display:block;
+}
+
+#Fisica,
+#Sexual,
+#Psyco,
+#Patrimonial,
+#Moral{
+  display:none;
+}
+
+
+
+
+/*PAGINA VIOLENCIA FISICA*/
+
+.pagina1{
+  width:390px;
+  min-height:842px;
+  background:#FFECB3;
+  position:relative;
+
+  overflow:visible;
+  transition:min-height .5s ease;
+}
+
+.moldura{
+  width:390px;
+  height:211px;
+  overflow:hidden;
+  position:relative;
+}
+
+.mão{
+  width:100%;
+  height:211px;
+  z-index:2;
+  object-fit:cover;
+}
+
+.linha{
+  width:390px;
+  height:7px;
+  background:#FFCC73;
+
+  position:absolute;
+  top:210px;
+  left:0px;
+
+  border-radius:0%;
+  z-index:5;
+  
+  box-shadow: 0px 2.5px 3px rgba(0,0,0,0.2);
+}
+
+.voltar{
+  
+  width:34px;
+  height:34px;
+
+  background:transparent;
+
+  border:none;
+
+  position:absolute;
+
+  top:237px;
+  left:23px;
+
+  z-index:5;
+
+  cursor:pointer;
+
+  padding:0;
+  transform: rotate(-180deg);
+
+}
+
+.seta{
+  width:100%;
+  height:100%;
+
+  object-fit:contain;
+  border-radius:50%;
+
+  display:block;
+  box-shadow: 0px -3.5px 2px rgba(0,0,0,0.3);
+  
+}
+
+.voltar:hover{
+  
+  transform:
+    rotate(-180deg)
+    scale(1.1);
+  transition:0.3s;
+}
+
+.título1{
+  font-size:36px;
+  font-family:"Modak";
+  font-weight:100;
+  color:#7E4A62;
+
+  z-index:5;
+
+  position:absolute;
+
+  
+  left:75px;
+  top:206px;
+  
+  text-align:center;
+  font-family:'Modak';
+
+  font-weight:80;
+  text-shadow: 0px 3.5px 3px rgba(0,0,0,0.3);
+
+}
+
+.anuncio{
+  height:260px;
+  width:45px;
+  background-color:#DB9A2B;
+  position:absolute;
+  z-index:6;
+  top:302px;
+
+  background-image:
+  
+  linear-gradient(
+rgba(255,255,255,0.3),
+rgba(255,255,255,0.3)
+),
+
+  url("https://i.imgur.com/i1vPoU3.png");
+  
+
+  background-size:140px;
+  display:flex;
+  background-repeat:repeat;
+  border-bottom-right-radius:15px;
+  border-top-right-radius:15px;
+
+  box-shadow:2.5px 3px 3px rgba(0,0,0,0.3);
+
+  overflow:hidden;
+}
+
+.empodera{
+  position:absolute;
+  top:24px;
+  left:12px;
+  text-align:center;
+  font-weight:500;
+  font-size:24px;
+  font-family:"Marko One";
+  color:white;
+  line-height:20px;
+  
+  -webkit-text-stroke:
+  8px #FFFFF;
+ 
+}
+
+.intro{
+  text-align:left;
+  height:250px;
+  width:270px;
+  font-size:19px;
+  font-family:"Piazzola";
+  position:absolute;
+  z-index:3;
+  left:70px;
+  top:304px;
+  text-shadow: 0px 3px 2px rgba(0,0,0,0.3);
+  line-height:20px;
+}
+
+/* ================= BLOCO DAS OPÇÕES ================= */
+
+.opçoes-grupo{
+
+position:absolute;
+
+top:600px;
+left:0px;
+
+width:390px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+z-index:5;
+
+transition:.5s;
+}
+
+/* cada opção + conteúdo */
+
+.opcao-box{
+
+width:360px;
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+/* botão principal */
+
+.opçao{
+width:360px;
+  height:38px;
+  border:none;
+  background-color:#FFCC73;
+  border-bottom-right-radius:6px;
+  border-top-right-radius:6px;
+
+  margin-top:10px;
+
+  z-index:5;
+  cursor:pointer;
+  padding:0;
+  
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+   box-shadow:0px 3px 3px rgba(0,0,0,0.25);
+}
+
+
+/* textos */
+
+.exemplos,
+.sinais,
+.defesa{
+
+font-size:18px;
+
+font-family:"Platypi";
+
+color:#9C4D72;
+
+font-weight:400;
+
+margin-left:13px;
+
+-webkit-text-stroke:
+0.5px #9C4D72;
+}
+
+
+/* setas */
+
+.setinha,
+.setinha2,
+.setinha3{
+
+height:19px;
+width:19px;
+
+margin-right:10px;
+
+transition:transform .45s;
+}
+
+.girar{
+
+transform:rotate(90deg);
+
+}
+
+
+/* área escondida */
+
+.conteudoEx{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx.ativo{
+
+max-height:150px;
+
+padding:12px 15px;
+
+}
+
+.opçao2{
+   width:360px;
+  height:38px;
+  border:none;
+  background-color:#FFCC73;
+  border-bottom-right-radius:6px;
+  border-top-right-radius:6px;
+
+  margin-top:20px;
+
+  z-index:5;
+  cursor:pointer;
+  padding:0;
+  
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+   box-shadow:0px 3px 3px rgba(0,0,0,0.25);
+
+}
+
+.conteudoEx2{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx2.ativo{
+
+max-height:265px;
+
+padding:12px 15px;
+}
+
+
+.setinha2{
+  height:19px;
+  width:19px;
+  position:relative;
+  right:0px;
+}
+
+.sinais{
+  font-size:18px;
+  font-family:"Platypi";
+  position:relative;
+  color:#9C4D72;
+  font-weight:400;
+  left:0px;
+  
+  -webkit-text-stroke:
+  0.5px #9C4D72;
+}
+
+.opçao3{
+   width:360px;
+  height:38px;
+  border:none;
+  background-color:#FFCC73;
+  border-bottom-right-radius:6px;
+  border-top-right-radius:6px;
+
+  margin-top:20px;
+
+  z-index:5;
+  cursor:pointer;
+  padding:0;
+  
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  
+   box-shadow:0px 3px 3px rgba(0,0,0,0.25);
+
+}
+
+.setinha3{
+  height:19px;
+  width:19px;
+  position:relative;
+  right:0px;
+}
+
+.defesa{
+  font-size:18px;
+  font-family:"Platypi";
+  position:relative;
+  color:#9C4D72;
+  font-weight:400;
+  left:0px;
+  
+  -webkit-text-stroke:
+  0.5px #9C4D72;
+}
+  
+.conteudoEx3{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 20px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+position:relative;
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx3.ativo{
+
+max-height:370px; 
+padding:12px 20px;
+
+}
+
+.topico1{
+
+font-family:"Piazzola";
+text-align:left;
+
+line-height:20px;
+
+color:#000000;
+}
+
+.topico2{
+
+font-family:"Piazzola";
+text-align:left;
+
+line-height:20px;
+
+color:#000000;
+}
+
+.topico3{
+
+font-family:"Piazzola";
+text-align:left;
+line-height:20px;
+color:#000000;
+
+margin-left:35px; /* cria espaço do lado */
+padding-top:0px;
+
+}
+
+.disque{
+  position:absolute;
+  top:33px;
+  left:12px;
+  text-align:center;
+  font-weight:500;
+  font-size:24px;
+  font-family:"Marko One";
+  color:white;
+  line-height:20px;
+  
+  -webkit-text-stroke:
+  8px #FFFFF;
+ 
+}
+.anuncio180{
+  height:260px;
+  width:45px;
+  background-color:#DB9A2B;
+
+  position:absolute; /* era relative */
+
+  top:35px;
+  left:0px;
+
+  background-image:
+
+  linear-gradient(
+rgba(255,255,255,0.3),
+rgba(255,255,255,0.3)
+),
+
+url("https://i.imgur.com/i1vPoU3.png");
+
+  background-size:140px;
+  display:flex;
+  background-repeat:repeat;
+
+  border-bottom-right-radius:15px;
+  border-top-right-radius:15px;
+
+  box-shadow:2.5px 3px 3px rgba(0,0,0,0.3);
+
+  overflow:hidden;
+}
+
+.pagina2{
+  width:390px;
+  min-height:842px;
+  background:#FFECB3;
+  position:relative;
+
+  overflow:visible;
+  transition:min-height .5s ease;
+}
+
+.conteudoExA{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoExA.ativo{
+
+max-height:210px;
+
+padding:12px 15px;
+
+}
+
+.conteudoEx2A{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx2A.ativo{
+
+max-height:170px;
+
+padding:12px 15px;
+}
+
+.textoDefesaSexual{
+
+margin-left:40px; 
+
+padding-right:10px;
+
+min-height:260px; 
+
+display:flex;
+
+align-items:flex-start;
+
+}
+
+.textoDefesaSexual .topico3{
+
+margin-left:0;
+padding-top:5px;
+line-height:20px;
+
+}
+
+.pagina3{
+  width:390px;
+  min-height:842px;
+  background:#FFECB3;
+  position:relative;
+
+  overflow:visible;
+  transition:min-height .5s ease;
+}
+.conteudoExB{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoExB.ativo{
+
+max-height:330px;
+
+padding:12px 15px;
+
+}
+
+.conteudoEx2B{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx2B.ativo{
+
+max-height:200px;
+
+padding:12px 15px;
+}
+
+.textoDefesaMoral{
+
+margin-left:40px; 
+
+padding-right:10px;
+
+min-height:260px; 
+
+display:flex;
+
+align-items:flex-start;
+
+}
+
+.textoDefesaMoral .topico3{
+
+margin-left:0;
+padding-top:5px;
+line-height:20px;
+
+}
+
+/*PAGINA PSICOLOGICA*/
+
+  
+.pagina4{
+  width:390px;
+  min-height:842px;
+  background:#FFECB3;
+  position:relative;
+
+  overflow:visible;
+  transition:min-height .5s ease;
+  }
+
+.conteudoExC{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoExC.ativo{
+
+max-height:210px;
+
+padding:12px 15px;
+
+}
+
+.conteudoEx2C{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx2C.ativo{
+
+max-height:200px;
+
+padding:12px 15px;
+}
+
+.textoDefesaPsyco{
+
+margin-left:40px; 
+
+padding-right:10px;
+
+min-height:260px; 
+
+display:flex;
+
+align-items:flex-start;
+
+}
+
+.textoDefesaPsyco .topico3{
+
+margin-left:0;
+padding-top:5px;
+line-height:20px;
+
+}
+
+.conteudoEx3C{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 20px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+position:relative;
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx3C.ativo{
+
+max-height:370px; 
+padding:12px 20px;
+
+}
+
+.títuloPsyco{
+  font-size:29px;
+  font-family:"Modak";
+  font-weight:100;
+  color:#7E4A62;
+
+  z-index:5;
+
+  position:absolute;
+
+  
+  left:75px;
+  top:218px;
+  
+  text-align:center;
+  font-family:'Modak';
+
+  font-weight:80;
+  text-shadow: 0px 3.5px 3px rgba(0,0,0,0.3);
+
+}
+
+/*PAGINA PATROMONIAL*/
+
+.pagina5{
+  width:390px;
+  min-height:842px;
+  background:#FFECB3;
+  position:relative;
+
+  overflow:visible;
+  transition:min-height .5s ease;
+  }
+
+.títuloPatrimonial{
+  font-size:29px;
+  font-family:"Modak";
+  font-weight:100;
+  color:#7E4A62;
+
+  z-index:5;
+
+  position:absolute;
+
+  
+  left:75px;
+  top:218px;
+  
+  text-align:center;
+  font-family:'Modak';
+
+  font-weight:80;
+  text-shadow: 0px 3.5px 3px rgba(0,0,0,0.3);
+
+}
+
+.conteudoExD{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoExD.ativo{
+
+max-height:180px;
+
+padding:12px 15px;
+
+}
+
+.conteudoEx2D{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 15px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx2D.ativo{
+
+max-height:190px;
+
+padding:12px 15px;
+}
+
+.textoDefesaPatrimonial{
+
+margin-left:40px; 
+
+padding-right:10px;
+
+min-height:260px; 
+
+display:flex;
+
+align-items:flex-start;
+
+}
+
+.textoDefesaPatrimonial .topico3{
+
+margin-left:0;
+padding-top:5px;
+line-height:20px;
+
+}
+
+.conteudoEx3D{
+
+max-height:0;
+
+overflow:hidden;
+
+padding:0px 20px;
+
+transition:
+max-height .55s ease,
+padding .55s ease;
+
+font-family:"Piazzola";
+
+font-size:18.5px;
+
+line-height:20px;
+
+text-shadow:
+0px 2px 2px rgba(0,0,0,.2);
+
+position:relative;
+
+}
+
+
+/* quando abrir */
+
+.conteudoEx3D.ativo{
+
+max-height:370px; 
+padding:12px 22px;
+
+}
